@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MInorProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimaryDark">@color/green</item>
+    </style>
+
+    <style name="Theme.MInorProject" parent="Base.Theme.MInorProject" />
+    
+    <style name="textStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="textStyleBold" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize the background color -->
+        <item name="android:background">@drawable/edittext_background</item>
+
+        <!-- Customize the text color inside the SearchView -->
+        <item name="android:editTextColor">@color/black</item>
+
+        <!-- Customize the hint text color -->
+        <item name="android:textColorHint">@color/green</item>
+
+        <!-- Customize the close (X) button color -->
+        <item name="colorControlNormal">@color/grey</item>
+
+        <!-- Customize the search icon color -->
+        <item name="colorControlActivated">@color/green</item>
+</style>
+</resources>
